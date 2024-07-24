@@ -2,7 +2,7 @@ import React from "react";
 import SubmitButton from "./submit-button";
 
 export default class LoginForm extends React.Component {
-    render() {
+    render() {//bootstrap default form. Specifically styled on CSS.
         return (
             <>
                 <h3>Log In</h3>
@@ -16,6 +16,7 @@ export default class LoginForm extends React.Component {
                         <label htmlFor="password">Password</label>
                         <input type="password" className="form-control" id="password" placeholder="Password" />
                     </div>
+                    <br></br>
                     <SubmitButton />
                 </form>
             </>

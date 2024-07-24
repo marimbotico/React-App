@@ -1,7 +1,7 @@
 import React from "react";
 
 function Nav() {
-    return (
+    return (// can use html components inside the return. Pretty simple nav bar 3 items inside a ul
         <nav className="navBar">
             <ul>
                 <li>Home</li>
